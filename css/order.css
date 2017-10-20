@@ -1,0 +1,80 @@
+h4 {
+  color: orange;
+  font-family: Savoye LET;
+  font-size: 6rem;
+  text-align: center;
+}
+header {
+  background: url(../img/catalina.png);
+  background-size: cover;
+  flex-direction: column;
+  height: 625px;
+  justify-content: center;
+}
+main {
+  margin: 50px 0;
+}
+nav .brand-logo {
+  padding-top: 1%;
+  font-family: Savoye LET;
+  font-weight: bold;
+}
+nav .orderLink {
+  font-size: 2rem;
+  font-family: Savoye LET;
+  font-weight: bold;
+}
+#placeOrder {
+  font-size: 1.5rem;
+  font-family: Savoye LET;
+  font-weight: bold;
+}
+.btn-large {
+  border-radius: 10px;
+}
+
+.brand-logo, .button-collapse {
+  margin-left: 10px;
+}
+#exLink {
+  font-family: Savoye LET;
+  font-size: 3rem;
+  font-weight: bold;
+}
+a.brand-logo:active, a.brand-logo:hover {
+  outline: 0;
+  text-decoration: underline;
+}
+a.white-text:active, a.white-text:hover {
+  outline: 0;
+  text-decoration: underline;
+}
+.card .card-title {
+  color: black;
+  font-size: 3rem;
+  font-family: Savoye LET;
+}
+.card .card-action {
+  color: black;
+  font-size: 2rem;
+  font-family: Savoye LET;
+}
+p {
+  font-size: 3rem;
+  font-family: Savoye LET;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+    text-decoration: underline;
+}
+tr {
+  font-family: Savoye LET;
+  font-weight: bold;
+  font-size: 2rem;
+}
+th {
+  padding: 5px 5px;
+}
+tfoot {
+  font-family: Savoye LET;
+  font-size: 2rem;
+}
