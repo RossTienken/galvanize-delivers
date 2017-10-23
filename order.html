@@ -43,7 +43,7 @@
     </div>
     <main>
       <div class="container">
-        <div class="row">
+        <div class="row" id='left'>
           <div class="col s12 m7">
             <h4>Menu</h4>
 
@@ -127,7 +127,7 @@
               <thead>
                 <tr>
                   <th>Item</th>
-                  <th class="right-align">Price</th>
+                  <th id='inOrder'class="right">Price</th>
                 </tr>
               </thead>
 
@@ -136,15 +136,15 @@
               <tfoot>
                 <tr>
                   <td class="right-align">Subtotal</td>
-                  <td class="right-align" id="subtotal"></td>
+                  <td class="right-align" id="subtotal">$0.00</td>
                 </tr>
                 <tr>
                   <td class="right-align">Tax</td>
-                  <td class="right-align" id="tax"></td>
+                  <td class="right-align" id="tax">$0.00</td>
                 </tr>
                 <tr>
                   <td class="right-align">Total</td>
-                  <td class="right-align" id="total"></td>
+                  <td class="right-align" id="total">$0.00</td>
                 </tr>
               </tfoot>
             </table>
@@ -163,8 +163,8 @@
               <div class="row">
                 <div class="input-field col s12">
                   <i class="material-icons prefix">phone_iphone</i>
-                  <input id="phone_number" type="text">
-                  <label for="phone_number" data-error="required">
+                  <input id="phoneNumber" type="text">
+                  <label for="phoneNumber" data-error="required">
                     Phone number
                   </label>
                 </div>
